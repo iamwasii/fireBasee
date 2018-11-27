@@ -1,0 +1,48 @@
+<LinearLayout android:layout_height="match_parent"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/uName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Enter UserName"
+        android:inputType="textPersonName"
+
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+
+        />
+
+    <TextView
+        android:id="@+id/logIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:padding="12dp"
+        android:textSize="22sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        android:text="LogIn"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>
